@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>javascript crud</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./css/main.css">
+<script src="./js/data/data.js"></script>
+<script src="./js/product/product.js"></script>
+<script src="./js/product/model/product.model.js"></script>
+<script src="./js/product/view/product.view.js"></script>
+<script src="./js/product/controller/product.controller.js"></script>
+<script src="./js/main.js"></script>
+</head>
+<body>
+<form class="oig-form" id="newProduct">
+  <fieldset>
+    <legend><b>Nuevo producto:</b></legend>
+    <fieldset>
+      <label for="nombre"><b>Nombre:</b></label>
+      <input type="text" id="nombre" />
+    </fieldset>
+    <fieldset>
+      <label for="precio"><b>Precio:</b></label>
+      <input type="number" id="precio" />
+    </fieldset>
+    <fieldset>
+      <label for="cantidad"><b>Cantidad:</b></label>
+      <input type="number" id="cantidad" />
+    </fieldset>
+    <fieldset class="control">
+      <input type="button" onClick="anterior()" value="cancelar" class="oig-lime"/>
+      <input type="button" onClick="guardar()" value="guardar" class="oig-green" />
+    </fieldset>
+  </fieldset>
+</form>
+<form class="oig-form" id="updateProduct" >
+  <fieldset>
+    <legend><b>Ver producto:</b></legend>
+    <fieldset>
+      <label for="uNombre"><b>Nombre:</b></label>
+      <input type="text" id="uNombre" />
+    </fieldset>
+    <fieldset>
+      <label for="uPrecio"><b>Precio:</b></label>
+      <input type="number" id="uPrecio" />
+    </fieldset>
+    <fieldset>
+      <label for="uCantidad"><b>Cantidad:</b></label>
+      <input type="number" id="uCantidad" />
+    </fieldset>
+    <fieldset class="control">
+      <a type="button" onClick="openNewProduct()" class="oig-green" href="#newProduct" style="width:25%">nuevo</a>
+      <a type="button" onClick="modificar()" value="actualizar" class="oig-green" style="width:25%">actualizar</a>
+      <a type="button" onClick="confirmacion()" class="oig-green" href="#deleteProduct" style="width:25%" >eliminar</a>
+    </fieldset>
+    <a type="button" onClick="anterior()" class="oig-green" style="float:left; padding-bottom:10px; border-radius:5px;" >anterior</a>
+    <a type="button" onClick="siguiente()" class="oig-green" style="float:right; padding-bottom:10px; border-radius:5px;" >siguiente</a>
+  </fieldset>
+</form>
+<form class="oig-form" id="deleteProduct">
+  <fieldset>
+    <legend><b>Eliminar producto:</b></legend>
+    <fieldset>
+      <label for="dNombre"><b>Nombre:</b></label>
+      <input type="text" id="dNombre" />
+    </fieldset>
+    <fieldset>
+      <label for="dPrecio"><b>Precio:</b></label>
+      <input type="number" id="dPrecio" />
+    </fieldset>
+    <fieldset>
+      <label for="dCantidad"><b>Cantidad:</b></label>
+      <input type="number" id="dCantidad" />
+    </fieldset>
+    <fieldset class="control">
+      <a type="button" value="cancelar" class="oig-lime" href="#updateProduct">cancelar</a>
+      <input type="button" onClick="eliminar();" value="eliminar" class="oig-green" />
+    </fieldset>
+  </fieldset>
+</form>
+</body>
+</html>
