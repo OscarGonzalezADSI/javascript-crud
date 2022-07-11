@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+form.oig-form{
+    clear:both;
+    margin:16px;
+    padding:16px;
+}
+
+form input[type=text],
+form input[type=number]
+{
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:87%;
+    color:#000;
+    background-color:#cddc39;
+    margin:8px;
+}
+
+form label{
+    color:#000;
+    margin:5px;
+    padding:5px;
+}
+
+form button,
+form input[type=button],
+form a[type=button]
+{
+    margin:5px;
+    font-size:12px;
+    padding:12px 24px;
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin:10px;
+    padding-bottom:10px;
+    border-radius:5px;
+}
+
+form button.oig-lime,
+form input[type=button].oig-lime,
+form a[type=button].oig-lime,
+form button.oig-lime-left,
+form input[type=button].oig-lime-left,
+form a[type=button].oig-lime-left,
+form button.oig-lime-right,
+form input[type=button].oig-lime-right,
+form a[type=button].oig-lime-right,
+form button.oig-green,
+form input[type=button].oig-green,
+form a[type=button].oig-green,
+form button.oig-green-left,
+form input[type=button].oig-green-left,
+form a[type=button].oig-green-left,
+form button.oig-green-right,
+form input[type=button].oig-green-right,
+form a[type=button].oig-green-right
+{
+    width:25%;
+}
+
+form button.oig-lime,
+form input[type=button].oig-lime,
+form a[type=button].oig-lime,
+form button.oig-lime-left,
+form input[type=button].oig-lime-left,
+form a[type=button].oig-lime-left,
+form button.oig-lime-right,
+form input[type=button].oig-lime-right,
+form a[type=button].oig-lime-right
+{
+    color:#000!important;
+    background-color:#cddc39!important;
+}
+
+form button.oig-lime-left,
+form input[type=button].oig-lime-left,
+form a[type=button].oig-lime-left
+{
+    float:left;
+}
+
+form button.oig-lime-right,
+form input[type=button].oig-lime-right,
+form a[type=button].oig-lime-right
+{
+    float:right;
+}
+
+form button.oig-green,
+form input[type=button].oig-green,
+form a[type=button].oig-green,
+form button.oig-green-left,
+form input[type=button].oig-green-left,
+form a[type=button].oig-green-left,
+form button.oig-green-right,
+form input[type=button].oig-green-right,
+form a[type=button].oig-green-right
+{
+    color:#fff!important;
+    background-color:#4CAF50;
+}
+
+form button.oig-green-left,
+form input[type=button].oig-green-left,
+form a[type=button].oig-green-left
+{
+    float:left;
+}
+
+form button.oig-green-right,
+form input[type=button].oig-green-right,
+form a[type=button].oig-green-right
+{
+    float:right;
+}
+
+fieldset{
+    padding-top:10px;
+    border-radius:8px;
+    margin:10px;
+}
+
+fieldset.control{
+	border:0px;
+    text-align:center;
+}
+
+p{
+    margin-left:10px;
+    margin-right:10px;
+    padding:10px;
+    background-color:#999;
+    border-radius:8px;
+    color:#fff;
+}
+
+fieldset legend{
+    margin-left:10px;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#4CAF50;
+    border-radius:8px;
+    color:#fff;
+}
+
+cite{
+    display:block;
+}
