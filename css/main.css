@@ -7,6 +7,7 @@ form.oig-form{
     clear:both;
     margin:16px;
     padding:16px;
+	box-shadow: 1px 1px 1px 2px #aaaaaa;
 }
 
 form input[type=text],
@@ -18,7 +19,7 @@ form input[type=number]
     border-bottom:1px solid #ccc;
     width:87%;
     color:#000;
-    background-color:#cddc39;
+    background-color:#DAF7A6;
     margin:8px;
 }
 
@@ -133,6 +134,7 @@ fieldset{
     padding-top:10px;
     border-radius:8px;
     margin:10px;
+	box-shadow: 1px 1px 1px 2px #aaaaaa;
 }
 
 fieldset.control{
