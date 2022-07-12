@@ -2,13 +2,13 @@ const data = {
 
     "productos" : [
         {
-            "nombre" : "oscar",
-            "precio" : "1000",
+            "nombre" : "carne",
+            "precio" : "10000",
             "cantidad" : "12"
         },
         {
-            "nombre" : "maria",
-            "precio" : "2000",
+            "nombre" : "leche",
+            "precio" : "3000",
             "cantidad" : "24"
         }
     ]
