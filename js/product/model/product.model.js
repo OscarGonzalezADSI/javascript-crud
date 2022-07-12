@@ -14,8 +14,8 @@ class ProductModel extends Product
             this.setNombre(nombre);
             this.setPrecio(precio);
             this.setCantidad(cantidad);
-        }catch(error){
-            console.error("error ProductModel", error.message);
+        }catch (e){
+            new ReportError(e);
         }
     }
     
@@ -28,8 +28,8 @@ class ProductModel extends Product
                 "cantidad" : this.getCantidad()
             }
             return product;
-        }catch(error){
-            console.error("error ProductModel", error.message);
+        }catch (e){
+            new ReportError(e);
         }
     }
     
@@ -37,8 +37,8 @@ class ProductModel extends Product
     {
         try{
             return data.productos.length;
-        }catch(error){
-            console.error("error ProductModel", error.message);
+        }catch (e){
+            new ReportError(e);
         }
     }
     
@@ -46,8 +46,8 @@ class ProductModel extends Product
     {
         try{
             return data.productos.push(producto);
-        }catch(error){
-            console.error("error ProductModel", error.message);
+        }catch (e){
+            new ReportError(e);
         }
     }
     
@@ -55,8 +55,8 @@ class ProductModel extends Product
     {
         try{
             return data.productos[index] = producto;
-        }catch(error){
-            console.error("error ProductModel", error.message);
+        }catch (e){
+            new ReportError(e);
         }
     }
     
@@ -64,8 +64,8 @@ class ProductModel extends Product
     {
         try{
             return data.productos.splice(index, 1);
-        }catch(error){
-            console.error("error ProductModel", error.message);
+        }catch (e){
+            new ReportError(e);
         }
     }
     
