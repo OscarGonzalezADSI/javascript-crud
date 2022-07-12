@@ -7,6 +7,7 @@ form.oig-form{
     clear:both;
     margin:16px;
     padding:16px;
+	border:0px;
 	box-shadow: 1px 1px 1px 2px #aaaaaa;
 }
 
@@ -132,6 +133,7 @@ form a[type=button].oig-green-right
 
 fieldset{
     padding-top:10px;
+	border:0px;
     border-radius:8px;
     margin:10px;
 	box-shadow: 1px 1px 1px 2px #aaaaaa;
